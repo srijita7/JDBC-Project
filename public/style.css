@@ -1,0 +1,94 @@
+body {
+    background-color: #e9d8d8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #B76EB8;
+}
+
+label {
+    font-weight: bold;
+    color: #B76EB8;
+}
+
+label,
+input,
+select,
+button {
+    margin: 5px;
+}
+
+#checkboxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #B76EB8;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    border-style: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 26px;
+}
+
+form {
+    border: 1px solid rgb(183, 110, 184);
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    padding: 20px;
+    margin: 30px;
+    width: 105%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#hotelForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    text-align: left;
+    border-collapse: collapse;
+    width: 960px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(92, 24, 111);
+    border: 2px solid rgb(183, 110, 184);
+}
+
+th {
+    background-color: #B76EB8;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+}
+
+tbody {
+    border-collapse: collapse;
+    width: 80%;
+    background-color: #fff;
+    color: #5c185f;
+    border: 2px solid #B76EB8;
+}
+
+td {
+    border: 2px solid #B76EB8;
+    padding: 10px;
+    color: #5c185f;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #e9e3e3;
+}
